@@ -1,0 +1,10 @@
+declare -a scripts=(
+  "git/user_config"
+  "git/shortcuts"
+)
+
+for file in "${scripts[@]}"
+do
+  source $file
+done
+

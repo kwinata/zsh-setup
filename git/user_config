@@ -1,0 +1,3 @@
+git config --global user.name "Kevin Winata"
+git config --global user.email "kevinwinatamichael@gmail.com"
+git config --global credential.username "kwinata"
