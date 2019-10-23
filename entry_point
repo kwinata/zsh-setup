@@ -1,10 +1,11 @@
 declare -a scripts=(
   "git/user_config"
   "git/shortcuts"
+  "zsh/bullet_train"
 )
 
 for file in "${scripts[@]}"
 do
-  source $file
+  source zsh-setup/$file
 done
 
