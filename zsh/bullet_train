@@ -1,3 +1,8 @@
+# https://github.com/caiogondim/bullet-train.zsh/issues/207#issuecomment-450642403
+# font broken for IDEA
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
 ZSH_THEME="bullet-train"
 
 BULLETTRAIN_PROMPT_ORDER=(

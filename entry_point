@@ -6,6 +6,6 @@ declare -a scripts=(
 
 for file in "${scripts[@]}"
 do
-  source zsh-setup/$file
+  source $HOME/zsh-setup/$file
 done
 
