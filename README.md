@@ -21,3 +21,8 @@ source $ZSH/oh-my-zsh.sh
 ```
 
 Then in your iterm, set the fonts to `Meslo S for powerline`
+
+### Tips
+
+- For g++-12 compiler, need `brew install gcc`
+- Usually `brew install llvm` is better than macos built-in one. Can try to install. After installing, you will need to follow the configuration: `export PATH="/opt/homebrew/opt/llvm/bin:$PATH"`

@@ -6,7 +6,7 @@ export LC_ALL=en_US.UTF-8
 ZSH_THEME="bullet-train"
 
 BULLETTRAIN_PROMPT_ORDER=(
-#    time
+    time
 #    custom
 #    context
     dir
@@ -24,7 +24,7 @@ BULLETTRAIN_PROMPT_ORDER=(
     cmd_exec_time
 )
 
-BULLETTRAIN_PROMPT_SEPARATE_LINE=false
+BULLETTRAIN_PROMPT_SEPARATE_LINE=true
 
 BULLETTRAIN_DIR_EXTENDED=1
 BULLETTRAIN_DIR_FG="232"

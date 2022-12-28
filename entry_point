@@ -2,6 +2,8 @@ declare -a scripts=(
   "git/user_config"
   "git/shortcuts"
   "zsh/bullet_train"
+  "cpp/shortcuts"
+  "shortcuts/commands"
 )
 
 for file in "${scripts[@]}"
