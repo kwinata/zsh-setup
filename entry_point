@@ -4,6 +4,7 @@ declare -a scripts=(
   "zsh/bullet_train"
   "cpp/shortcuts"
   "shortcuts/commands"
+  "shortcuts/shopee"
 )
 
 for file in "${scripts[@]}"
@@ -11,3 +12,4 @@ do
   source $HOME/zsh-setup/$file
 done
 
+HOMEBREW_NO_AUTO_UPDATE=1
