@@ -1,0 +1,2 @@
+alias vscode="open -a /Applications/Visual\ Studio\ Code.app"
+alias goland="open -a /Applications/GoLand.app"

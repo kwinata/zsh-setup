@@ -1,0 +1,6 @@
+git config --global user.name "Kevin Winata"
+git config --global user.email "kevinwinatamichael@gmail.com"
+git config --global credential.username "kwinata"
+
+export DARK_THEME=1
+export HOMEBREW_NO_AUTO_UPDATE=1

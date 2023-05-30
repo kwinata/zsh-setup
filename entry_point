@@ -1,15 +1,16 @@
+source $HOME/zsh-setup/extra_config
+
 declare -a scripts=(
-  "git/user_config"
-  "git/shortcuts"
-  "zsh/bullet_train"
-  "cpp/shortcuts"
-  "shortcuts/commands"
+  "shortcuts/apps"
+  "shortcuts/cpp"
+  "shortcuts/git"
+  "shortcuts/go"
   "shortcuts/shopee"
+
+  "envs/bullet_train"
 )
 
 for file in "${scripts[@]}"
 do
   source $HOME/zsh-setup/$file
 done
-
-HOMEBREW_NO_AUTO_UPDATE=1

@@ -1,4 +1,0 @@
-ac () {
- echo "Compiling with Atcoder Library $1.cpp"
- CPLUS_INCLUDE_PATH="/Users/kevin.winata/workspace/ac-library" g++-12 $1.cpp -Wall -o $1.o
-}
