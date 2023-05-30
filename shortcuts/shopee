@@ -1,0 +1,5 @@
+alias ss="smc services"
+alias ssecplive="smc services enter mall-bffecp-live-global"
+alias ssecptest="smc services enter mall-bffecp-test-global"
+alias gmv="go mod vendor"
+
