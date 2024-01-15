@@ -2,7 +2,6 @@ source $HOME/zsh-setup/extra_config
 
 declare -a scripts=(
   "shortcuts/apps"
-  "shortcuts/cpp"
   "shortcuts/git"
   "shortcuts/go"
   "shortcuts/shopee"
