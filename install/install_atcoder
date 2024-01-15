@@ -1,3 +1,0 @@
-git clone https://github.com/atcoder/ac-library
-mv ac-library/atcoder $HOME/zsh-setup/atcoder
-rm -r ac-library
