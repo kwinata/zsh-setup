@@ -11,6 +11,7 @@ BULLETTRAIN_PROMPT_ORDER=(
 #    context
     dir
     virtualenv
+    conda
 #    screen
 #    perl
 #    ruby
