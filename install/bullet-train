@@ -1,3 +1,3 @@
-cp ./custom-bullet-train/bullet-train.zsh-theme > "$ZSH_CUSTOM/themes/bullet-train.zsh-theme"
+cp ./custom-bullet-train/bullet-train.zsh-theme "$ZSH_CUSTOM/themes/bullet-train.zsh-theme"
 
 echo "changeps1: false" >> ~/.condarc
